@@ -42,7 +42,7 @@ app.get('/usuarios',async (req,res)=>{
  
   app.get('/agregarusuario',async (req,res)=>{
 
-    const nombre=req.query.no
+    const no=req.query.no
 
     const contrasena=req.query.contrasena
 
